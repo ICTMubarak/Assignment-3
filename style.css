@@ -1,0 +1,40 @@
+footer{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+
+/* smaller device */
+
+@media screen and (max-width: 576px) {
+
+    .container-grid{
+    
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        color: black;
+        margin: 0px;
+        padding: 7px;
+        justify-content: space-around;
+        
+    }
+}
+
+
+.social-icon{
+    
+    display: flex;
+    width: 200px;
+    height: auto;
+    justify-content:space-between;
+    
+}
